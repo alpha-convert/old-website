@@ -1,0 +1,162 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+*{
+    -webkit-box-sizing:border-box;
+    list-style: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body{
+    background-color:#F1F1F1;
+}
+
+.wrapper{
+    width:92%;
+    margin:0 auto;
+    position:relative;
+    /*background-color: white;*/
+}
+
+.header{
+    background-color: white;
+}
+    
+    #snoo{
+        height:14rem;
+        width:15%;
+        float:left;
+        display: inline-block;
+    }
+
+    .header h1{
+        text-align: center;
+        display:inline-block;
+        float:left;
+        font-size: 10rem;
+        font-family: 'PT Sans Narrow', sans-serif;
+        padding-right: 5%;
+        padding-top:3rem;
+        margin:auto;
+    }
+
+.info{
+    width:50%;
+    text-align:center;
+    float:left;
+    margin-bottom:10rem;
+}
+
+#center{
+    margin:0 auto;
+    text-align:center;
+    float:none;
+    margin-top:5rem;
+    margin-bottom:4rem;
+}
+
+#center2{
+    margin:0 auto;
+    text-align:center;
+    float:none;
+    margin-top:5rem;
+    margin-bottom:4rem;
+}
+
+.info ul li h1{
+    font-size:3rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-decoration: underline;
+}
+
+.info ul li h2{
+    font-size:2.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#trophies_h2{
+    font-size: 1.5rem;
+}
+
+.body{
+    background-color: #F1F1F1;
+    padding-top:2rem;
+}
+form{
+    margin:0 auto;
+    text-align:center;
+    display:inline-block;
+    width:40%;
+
+}
+
+.form_wrapper{
+    clear:both;
+    text-align: center;
+    margin-top:3rem;
+}
+
+.clearfix{
+    clear:both;
+
+}
+
+input    {
+width:100%;
+display:block;
+border: 1px solid #999;
+height: 3.2rem;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+text-align: center;
+font-size: 2.3rem;
+padding-bottom:.5rem;
+padding-top: .5rem;
+}
+
+button {
+margin-top:2rem;
+width:33%;
+height:3.3rem;
+font-size: 2rem
+}
+
+a{
+    text-decoration: none;
+    color:blue;
+}
+
+a:visited{
+    color:blue;
+}
+
+@media only screen and (max-width: 480px) {
+    #snoo{
+        display:none;
+    }
+
+    .header h1{
+        font-size: 6rem;
+        margin-top:1rem;
+        padding-bottom:.3rem;
+    }
+
+    form{
+        width:100%;
+    }
+
+    button{
+        width:75%;
+    }
+
+    .info{
+        width:100%;
+    }
+
+    #username{
+        margin-top:none;
+        margin-bottom:10rem;
+    }
+
+}
+
