@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
 
-font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color:#BDC3C7;
 }
 
@@ -29,19 +29,40 @@ font-family: 'Roboto', sans-serif;
 }
 
 .about{
-	padding: 1em;
+	padding-top: 1em;
+	padding-left: 3%;
+	padding-right: 1%;
 	border-top: 2px dashed #ECF0F1;
+	border-right: 1px dashed #ECF0F1;
+	float:left;
+	width: 45%;
 }
 
-.about>ul{
-	text-align:center;
+ul{
 	list-style:none;
 }
 
-li{
+.projects{
+	padding-top: 1em;
+	padding-right: 3%;
+	padding-left: 1%;
+	border-top: 2px dashed #ECF0F1;
+	border-left: 1px dashed #ECF0F1;
+	float:left;
+	width: 45%;
+}
+
+
+ul li{
 	margin-top: 0.1rem;
 }
 
 a{
 	color:black;
+}
+
+.social{
+	width: 100%;
+	margin: 0 auto;
+	float:right;
 }
